@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud Watchers Club</title>
+</head>
+
+<body>
+
+    <h1>Join the Professional Cloud Watchers Club! ☁️</h1>
+    <p>Do you like staring at the sky and doing absolutely nothing? Sign up below!</p>
+
+
+    <form action="/join-club" method="post">
+
+
+        <label for="alias">Your Cloud Name (Alias):</label>
+        <input type="text" id="alias" name="alias" placeholder="e.g. Cumulus King">
+        <br><br>
+
+
+        <label for="pigeon_mail">Pigeon Mail (Email):</label>
+        <input type="email" id="pigeon_mail" name="user_email" placeholder="you@sky.com">
+        <br><br>
+
+
+        <p>What is your favorite type of cloud?</p>
+
+        <input type="radio" id="fluffy" name="cloud_type" value="fluffy">
+        <label for="fluffy">Super Fluffy</label><br>
+
+        <input type="radio" id="wispy" name="cloud_type" value="wispy">
+        <label for="wispy">Weirdly Wispy </label><br>
+
+        <input type="radio" id="stormy" name="cloud_type" value="stormy">
+        <label for="stormy">Angry & Dramatic</label>
+        <br><br>
+
+
+        <label for="snack">Preferred Sky Watching Snack:</label>
+        <select id="snack" name="favorite_snack">
+            <option value="cotton_candy">Cotton Candy</option>
+            <option value="marshmallows">Marshmallows</option>
+            <option value="air">Just Air (I'm focused)</option>
+
+        </select>
+
+
+        <br><br>
+
+
+        <label for="reason">Why do you stare at the sky?</label><br>
+
+        <textarea id="reason" name="user_reason" rows="4" cols="35" placeholder="Tell us your secrets..."></textarea>
+        <br><br>
+
+
+        <input type="submit" value="Send me to the clouds!">
+
+    </form>
+
+</body>
+
+</html>
