@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fortune Teller</title>
+</head>
+<body>
+
+  <img src="crystal-ball.png" alt="Crystal Ball" width="150">
+
+  <h1>Mystic Fortune Teller</h1>
+
+  <form action="/" method="get">
+    
+    <label for="question">What is your question?</label>
+    <input type="text" id="question" name="question" placeholder="Ask your fate...">
+    <br><br>
+
+    <label for="userEmail">Your Email:</label>
+    <input type="email" id="userEmail" name="userEmail" placeholder="seer@future.com">
+    <br><br>
+
+    <label for="userPass">Secret Passcode:</label>
+    <input type="password" id="userPass" name="userPass" placeholder="Shhh...">
+    <br><br>
+
+    <p>Choose your alignment:</p>
+    <input type="radio" id="good" name="alignment" value="good">
+    <label for="good">Good</label>
+    
+    <input type="radio" id="evil" name="alignment" value="evil">
+    <label for="evil">Evil</label>
+    <br><br>
+
+    <input type="checkbox" id="ghosts" name="ghosts" value="yes">
+    <label for="ghosts">I believe in ghosts</label>
+    <br><br>
+
+    <label for="spirit">Choose a spirit guide:</label>
+    <select id="spirit" name="spirit">
+      <option value="cat">Mystic Cat</option>
+      <option value="owl">Wise Owl</option>
+      <option value="frog">Sassy Frog</option>
+    </select>
+    <br><br>
+
+    <label for="comments">Any final thoughts?</label><br>
+    <textarea id="comments" name="comments" rows="3" cols="20"></textarea>
+    <br><br>
+
+    <input type="submit" value="Tell My Fortune!">
+
+  </form>
+
+</body>
+</html>
